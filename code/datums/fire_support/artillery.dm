@@ -189,7 +189,7 @@
 	initiate_title = "Rhino-1"
 	initiate_screen_message = list(
 		"At my signal, unleash hell!",
-		"Positive ID on target, fire!"
+		"Positive ID on target, dropping the party!",
 		"Firing for effect, over.",
 		"Full salvo, on the way!",
 		"They've got NERVE to piss us off!",

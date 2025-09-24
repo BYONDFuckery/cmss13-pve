@@ -11,7 +11,7 @@
 		"Target received, gun run inbound",
 		"Lase sighted, sending lead delivery hot and ready",
 		"I'm coming in, keep your heads down!",
-		"I got eyes. SMOKE EM!!"
+		"I got eyes. SMOKE EM!!",
 		"Finally some targets! Strafe incomin'",
 		"Time to let these guns roar, we're inbound.",
 	)
@@ -79,7 +79,7 @@
 	initiate_chat_message = "TARGET ACQUIRED LASER RUN INBOUND."
 	initiate_screen_message = list(
 		"Target received, laser inbound",
-		"PEW PEW PEW!".
+		"PEW PEW PEW!",
 		"Flash, flash! Don't look up!",
 		"Going to get real hot down there, watch your step.",
 		"Close your eyes or put some goggles on, laser pulsing!",
