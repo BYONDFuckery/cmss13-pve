@@ -8,6 +8,7 @@
 	initiate_chat_message = "TARGET ACQUIRED AMMO CRATE LAUNCHING."
 	initiate_screen_message = list(
 		"Make sure to tip!",
+		"Got you. Cargo enroute.",
 		"Your ammo's here, enjoy.",
 		"Watch your head, crate dropping.",
 		"Dropping it.. now.",
@@ -64,6 +65,7 @@
 	initiate_chat_message = "TARGET ACQUIRED SENTRY POD LAUNCHING."
 	initiate_screen_message = list(
 		"Sending you a little friend.",
+		"Didn't ya year? Robots are takin marine jobs now.",
 		"Watch your head, sentry dropping.",
 		"Take good care of him, would you?.",
 		"Sentry, on the way."

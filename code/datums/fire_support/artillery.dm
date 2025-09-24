@@ -189,8 +189,11 @@
 	initiate_title = "Rhino-1"
 	initiate_screen_message = list(
 		"At my signal, unleash hell!",
+		"Positive ID on target, fire!"
 		"Firing for effect, over.",
 		"Full salvo, on the way!",
+		"They've got NERVE to piss us off!",
+		"CN-20 out! Stay clear!",
 		"Their gonna dance to our tune!",
 	)
 	initiate_sound = 'sound/weapons/gun_mortar_travel.ogg'

@@ -5,7 +5,7 @@
 	mob_max = 1
 	mob_min = 1
 	probability = 0
-	objectives = "Get some good trophies. The more dangerous, the better!"
+	objectives = "Go blast that bloody queen!"
 	hostility = TRUE
 
 /datum/emergency_call/van_bandolier/New()

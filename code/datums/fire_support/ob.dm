@@ -6,7 +6,7 @@
 	cost = 5
 	icon_state = "cruise"
 	initiate_title = "CIC"
-	initiate_chat_message = "TARGET ACQUIRED OB INBOUND."
+	initiate_chat_message = "TARGET ACQUIRED, ORBITAL SUPPORT INBOUND."
 	initiate_screen_message = list(
 		"Orbital support request received, HE inbound.",
 		)

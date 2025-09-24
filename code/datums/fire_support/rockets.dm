@@ -10,6 +10,7 @@
 	initiate_chat_message = "TARGET ACQUIRED HE ROCKET RUN INBOUND."
 	initiate_screen_message = list(
 		"Rockets hot, incoming!",
+		"Watch for shrapnel!",
 		"Heres a little firework show for you all!",
 		"Salvo sent, watch the spread!",
 		"Flying in hot, rockets inbound!",
