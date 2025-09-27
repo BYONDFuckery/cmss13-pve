@@ -216,7 +216,7 @@
 			if(!connected.occupant)
 				return
 			if(connected.occupant.stat == DEAD)
-				to_chat(usr, SPAN_DANGER("This person has no life to preserve anymore. Take them to a department capable of reanimating them."))
+				to_chat(usr, SPAN_DANGER("They're already dead. Too little, too late."))
 				return
 			var/chemical = params["chemid"]
 			var/amount = text2num(params["amount"])

@@ -40,6 +40,12 @@
 	cost = 3
 	icon_state = "napalm_missile"
 	initiate_chat_message = "TARGET ACQUIRED NAPALM MISSILE INBOUND."
+	initiate_screen_message = list(
+		"Boom, pot roast!",
+		"Burn baby BURN!",
+		"Napalm away!",
+		"Heads down and eyes up. It's gonna get real hot!",
+		)
 	impact_start_visual = /obj/effect/temp_visual/falling_obj/napalm
 
 /datum/fire_support/missile/napalm/do_impact(turf/target_turf)
@@ -59,6 +65,12 @@
 	cost = 2
 	icon_state = "smoke_missile"
 	initiate_chat_message = "TARGET ACQUIRED SMOKE MISSILE INBOUND."
+	initiate_screen_message = list(
+		"Blocking out the sun.",
+		"We have concealment.",
+		"Don't breathe that.",
+		"One smokescreen, express delivery!",
+		)
 	impact_start_visual = /obj/effect/temp_visual/falling_obj/banshee
 	///smoke type created when the grenade is primed
 	var/datum/effect_system/smoke_spread/smoketype = /datum/effect_system/smoke_spread/bad
@@ -85,7 +97,12 @@
 	fire_support_type = FIRESUPPORT_TYPE_NERVE_MISSILE_UPP
 	cost = 3
 	icon_state = "nerve_missile"
-	initiate_screen_message = list("Nerve gas away!",)
+	initiate_screen_message = list(
+		"TGP on lase, CN-20 out.",
+		"You sure about this? Missile away..",
+		"Get your atropine ready, CN-20 out!",
+		"They've got nerve to fuck with us..",
+		)
 	smoketype = /datum/effect_system/smoke_spread/cn20
 	smoke_duration = 30
 
@@ -105,6 +122,7 @@
 		"TGP on lase, LSD out.",
 		"Roger. Dropping now.",
 		"Straight from the CIA.",
+		"They'll ENJOY this.",
 		"Dropping the crazy-gas.",
 		)
 	smoketype = /datum/effect_system/smoke_spread/LSD
