@@ -85,7 +85,7 @@
 	fire_support_type = FIRESUPPORT_TYPE_NERVE_MISSILE_UPP
 	cost = 3
 	icon_state = "nerve_missile"
-	initiate_screen_message = list("Nerve gas, inbound!")
+	initiate_screen_message = list("Nerve gas away!",)
 	smoketype = /datum/effect_system/smoke_spread/cn20
 	smoke_duration = 30
 
@@ -101,7 +101,12 @@
 	fire_support_type = FIRESUPPORT_TYPE_LSD_MISSILE_UPP
 	cost = 2
 	icon_state = "lsd_missile"
-	initiate_screen_message = list("LSD gas, inbound!")
+	initiate_screen_message = list(
+		"TGP on lase, LSD out.",
+		"Roger. Dropping now.",
+		"Straight from the CIA.",
+		"Dropping the crazy-gas.",
+		)
 	smoketype = /datum/effect_system/smoke_spread/LSD
 	smoke_duration = 30
 
